@@ -1,0 +1,22 @@
+package edu.tcu.cs.hogwartsartifactsonline.Artifact.Converter;
+
+import edu.tcu.cs.hogwartsartifactsonline.Artifact.Artifact;
+import edu.tcu.cs.hogwartsartifactsonline.Artifact.Dto.ArtifactDto;
+import jakarta.persistence.Convert;
+import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ArtifactDtoToArtifactConverter implements Converter<ArtifactDto, Artifact> {
+
+    @Override
+    public Artifact convert(ArtifactDto source) {
+        Artifact artifact = new Artifact();
+        artifact.setId(source.id());
+        artifact.setName(source.name());
+        artifact.setDescription(source.description());
+        artifact.setImageURL(source.imageUrl());
+        return artifact;
+
+    }
+}
