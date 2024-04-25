@@ -1,6 +1,6 @@
-package edu.tcu.cs.hogwartsartifactsonline.Artifact;
+package edu.tcu.cs.hogwartsartifactsonline.artifact;
 
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Utils.IdWorker;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Utils.IdWorker;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 

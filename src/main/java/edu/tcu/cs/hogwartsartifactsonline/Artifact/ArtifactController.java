@@ -1,10 +1,10 @@
-package edu.tcu.cs.hogwartsartifactsonline.Artifact;
+package edu.tcu.cs.hogwartsartifactsonline.artifact;
 
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Converter.ArtifactDtoToArtifactConverter;
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Converter.ArtifactToArtifactDtoConverter;
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Dto.ArtifactDto;
-import edu.tcu.cs.hogwartsartifactsonline.System.Result;
-import edu.tcu.cs.hogwartsartifactsonline.System.StatusCode;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Converter.ArtifactDtoToArtifactConverter;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Converter.ArtifactToArtifactDtoConverter;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Dto.ArtifactDto;
+import edu.tcu.cs.hogwartsartifactsonline.system.Result;
+import edu.tcu.cs.hogwartsartifactsonline.system.StatusCode;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 

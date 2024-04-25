@@ -1,8 +1,8 @@
-package edu.tcu.cs.hogwartsartifactsonline.System.Exception;
+package edu.tcu.cs.hogwartsartifactsonline.system.Exception;
 
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.ArtifactNotFoundException;
-import edu.tcu.cs.hogwartsartifactsonline.System.Result;
-import edu.tcu.cs.hogwartsartifactsonline.System.StatusCode;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.ArtifactNotFoundException;
+import edu.tcu.cs.hogwartsartifactsonline.system.Result;
+import edu.tcu.cs.hogwartsartifactsonline.system.StatusCode;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;

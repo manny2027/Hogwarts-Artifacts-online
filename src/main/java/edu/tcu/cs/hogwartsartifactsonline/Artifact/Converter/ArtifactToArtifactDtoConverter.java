@@ -1,9 +1,8 @@
-package edu.tcu.cs.hogwartsartifactsonline.Artifact.Converter;
+package edu.tcu.cs.hogwartsartifactsonline.artifact.Converter;
 
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Artifact;
-import edu.tcu.cs.hogwartsartifactsonline.Artifact.Dto.ArtifactDto;
-import edu.tcu.cs.hogwartsartifactsonline.Wizard.Converter.WizardToWizardDtoConverter;
-import edu.tcu.cs.hogwartsartifactsonline.Wizard.Dto.WizardDto;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Artifact;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Dto.ArtifactDto;
+import edu.tcu.cs.hogwartsartifactsonline.wizard.Converter.WizardToWizardDtoConverter;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

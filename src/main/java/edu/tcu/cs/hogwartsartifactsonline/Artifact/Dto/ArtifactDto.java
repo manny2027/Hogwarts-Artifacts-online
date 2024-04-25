@@ -1,6 +1,6 @@
-package edu.tcu.cs.hogwartsartifactsonline.Artifact.Dto;
+package edu.tcu.cs.hogwartsartifactsonline.artifact.Dto;
 
-import edu.tcu.cs.hogwartsartifactsonline.Wizard.Dto.WizardDto;
+import edu.tcu.cs.hogwartsartifactsonline.wizard.Dto.WizardDto;
 import jakarta.validation.constraints.NotEmpty;
 
 public record ArtifactDto(String id,
